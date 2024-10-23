@@ -5,7 +5,7 @@ import path from "path";
 import authRoutes from "../backend/routes/auth.routes.js";
 import messageRoutes from "../backend/routes/message.routes.js";
 import userRoutes from "../backend/routes/user.routes.js";
-import connectToMongodb from "./db/connectToMongoDb.js";
+import connectToMongodb from "./db/connectToMongoDB.js";
 import { app, server } from "./socket/socket.js";
 
 const PORT = process.env.PORT || 5000;
